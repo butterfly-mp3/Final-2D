@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameOverUI _gameOverUI;
     [SerializeField] private Player _player;
     [SerializeField] private float _maxTimeSeconds;
+    [SerializeField] private List<GameObject> _objectsToKick = new List<GameObject>();
     // Add a member variable that's a LIST (or ARRAY) of all of the objects
     //      that the player is required to kick.
     // This variable should be editable from the inspector.

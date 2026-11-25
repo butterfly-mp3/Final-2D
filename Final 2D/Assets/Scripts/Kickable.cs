@@ -6,6 +6,7 @@ public class Kickable : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private GameObject _explosionVfxPrefab;
+    [SerializeField] private string _rarity;
     // Add a member variable to represent this item's rarity.
 
     private bool _wasKicked;

@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameOverUI : MonoBehaviour
 {
     [SerializeField] private GameController _gameController;
+    [SerializeField] private TMP_Text _scoreText;
     // Add member variables to store references to the Text Components for the
     //      various points texts.
 
